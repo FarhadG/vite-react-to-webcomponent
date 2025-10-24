@@ -14,7 +14,7 @@ function Yt() {
   if (ft)
     return g;
   ft = 1;
-  var $ = Symbol.for("react.element"), y = Symbol.for("react.portal"), Ee = Symbol.for("react.fragment"), X = Symbol.for("react.strict_mode"), de = Symbol.for("react.profiler"), re = Symbol.for("react.provider"), te = Symbol.for("react.context"), Q = Symbol.for("react.forward_ref"), L = Symbol.for("react.suspense"), Z = Symbol.for("react.memo"), N = Symbol.for("react.lazy"), U = Symbol.iterator;
+  var $ = Symbol.for("react.element"), v = Symbol.for("react.portal"), Ee = Symbol.for("react.fragment"), X = Symbol.for("react.strict_mode"), de = Symbol.for("react.profiler"), re = Symbol.for("react.provider"), te = Symbol.for("react.context"), Q = Symbol.for("react.forward_ref"), L = Symbol.for("react.suspense"), Z = Symbol.for("react.memo"), N = Symbol.for("react.lazy"), U = Symbol.iterator;
   function ee(n) {
     return n === null || typeof n != "object" ? null : (n = U && n[U] || n["@@iterator"], typeof n == "function" ? n : null);
   }
@@ -92,7 +92,7 @@ function Yt() {
         case "object":
           switch (n.$$typeof) {
             case $:
-            case y:
+            case v:
               k = !0;
           }
       }
@@ -238,7 +238,7 @@ var vr = { exports: {} };
  */
 var lt;
 function Bt() {
-  return lt || (lt = 1, function($, y) {
+  return lt || (lt = 1, function($, v) {
     process.env.NODE_ENV !== "production" && function() {
       typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ < "u" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart == "function" && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
       var Ee = "18.2.0", X = Symbol.for("react.element"), de = Symbol.for("react.portal"), re = Symbol.for("react.fragment"), te = Symbol.for("react.strict_mode"), Q = Symbol.for("react.profiler"), L = Symbol.for("react.provider"), Z = Symbol.for("react.context"), N = Symbol.for("react.forward_ref"), U = Symbol.for("react.suspense"), ee = Symbol.for("react.suspense_list"), G = Symbol.for("react.memo"), se = Symbol.for("react.lazy"), Ie = Symbol.for("react.offscreen"), ne = Symbol.iterator, ae = "@@iterator";
@@ -489,7 +489,7 @@ function Bt() {
         }
       }
       var je = function(e, r, a, o, i, p, l) {
-        var v = {
+        var y = {
           $$typeof: X,
           type: e,
           key: r,
@@ -497,27 +497,27 @@ function Bt() {
           props: l,
           _owner: p
         };
-        return v._store = {}, Object.defineProperty(v._store, "validated", {
+        return y._store = {}, Object.defineProperty(y._store, "validated", {
           configurable: !1,
           enumerable: !1,
           writable: !0,
           value: !1
-        }), Object.defineProperty(v, "_self", {
+        }), Object.defineProperty(y, "_self", {
           configurable: !1,
           enumerable: !1,
           writable: !1,
           value: o
-        }), Object.defineProperty(v, "_source", {
+        }), Object.defineProperty(y, "_source", {
           configurable: !1,
           enumerable: !1,
           writable: !1,
           value: i
-        }), Object.freeze && (Object.freeze(v.props), Object.freeze(v)), v;
+        }), Object.freeze && (Object.freeze(y.props), Object.freeze(y)), y;
       };
       function gr(e, r, a) {
-        var o, i = {}, p = null, l = null, v = null, E = null;
+        var o, i = {}, p = null, l = null, y = null, E = null;
         if (r != null) {
-          Ye(r) && (l = r.ref, er(r)), me(r) && (Oe(r.key), p = "" + r.key), v = r.__self === void 0 ? null : r.__self, E = r.__source === void 0 ? null : r.__source;
+          Ye(r) && (l = r.ref, er(r)), me(r) && (Oe(r.key), p = "" + r.key), y = r.__self === void 0 ? null : r.__self, E = r.__source === void 0 ? null : r.__source;
           for (o in r)
             ke.call(r, o) && !Le.hasOwnProperty(o) && (i[o] = r[o]);
         }
@@ -538,7 +538,7 @@ function Bt() {
           var W = typeof e == "function" ? e.displayName || e.name || "Unknown" : e;
           p && mr(i, W), l && Ze(i, W);
         }
-        return je(e, p, l, v, E, q.current, i);
+        return je(e, p, l, y, E, q.current, i);
       }
       function _r(e, r) {
         var a = je(e.type, r, e.ref, e._self, e._source, e._owner, e.props);
@@ -547,7 +547,7 @@ function Bt() {
       function br(e, r, a) {
         if (e == null)
           throw new Error("React.cloneElement(...): The argument must be a React element, but you passed " + e + ".");
-        var o, i = h({}, e.props), p = e.key, l = e.ref, v = e._self, E = e._source, O = e._owner;
+        var o, i = h({}, e.props), p = e.key, l = e.ref, y = e._self, E = e._source, O = e._owner;
         if (r != null) {
           Ye(r) && (l = r.ref, O = q.current), me(r) && (Oe(r.key), p = "" + r.key);
           var j;
@@ -563,7 +563,7 @@ function Bt() {
             D[W] = arguments[W + 2];
           i.children = D;
         }
-        return je(e.type, p, l, v, E, O, i);
+        return je(e.type, p, l, y, E, O, i);
       }
       function ge(e) {
         return typeof e == "object" && e !== null && e.$$typeof === X;
@@ -605,16 +605,16 @@ function Bt() {
               }
           }
         if (l) {
-          var v = e, E = i(v), O = o === "" ? rr + Ae(v, 0) : o;
+          var y = e, E = i(y), O = o === "" ? rr + Ae(y, 0) : o;
           if (Fe(E)) {
             var j = "";
             O != null && (j = ve(O) + "/"), _e(E, r, j, "", function(Ut) {
               return Ut;
             });
           } else
-            E != null && (ge(E) && (E.key && (!v || v.key !== E.key) && Oe(E.key), E = _r(
+            E != null && (ge(E) && (E.key && (!y || y.key !== E.key) && Oe(E.key), E = _r(
               E,
-              a + (E.key && (!v || v.key !== E.key) ? ve("" + E.key) + "/" : "") + O
+              a + (E.key && (!y || y.key !== E.key) ? ve("" + E.key) + "/" : "") + O
             )), r.push(E));
           return 1;
         }
@@ -1058,17 +1058,17 @@ See https://reactjs.org/link/invalid-hook-call for tips about how to debug and f
           }
         } catch (z) {
           if (z && o && typeof z.stack == "string") {
-            for (var v = z.stack.split(`
+            for (var y = z.stack.split(`
 `), E = o.stack.split(`
-`), O = v.length - 1, j = E.length - 1; O >= 1 && j >= 0 && v[O] !== E[j]; )
+`), O = y.length - 1, j = E.length - 1; O >= 1 && j >= 0 && y[O] !== E[j]; )
               j--;
             for (; O >= 1 && j >= 0; O--, j--)
-              if (v[O] !== E[j]) {
+              if (y[O] !== E[j]) {
                 if (O !== 1 || j !== 1)
                   do
-                    if (O--, j--, j < 0 || v[O] !== E[j]) {
+                    if (O--, j--, j < 0 || y[O] !== E[j]) {
                       var A = `
-` + v[O].replace(" at new ", " at ");
+` + y[O].replace(" at new ", " at ");
                       return e.displayName && A.includes("<anonymous>") && (A = A.replace("<anonymous>", e.displayName)), typeof e == "function" && sr.set(e, A), A;
                     }
                   while (O >= 1 && j >= 0);
@@ -1130,17 +1130,17 @@ See https://reactjs.org/link/invalid-hook-call for tips about how to debug and f
           var p = Function.call.bind(ke);
           for (var l in e)
             if (p(e, l)) {
-              var v = void 0;
+              var y = void 0;
               try {
                 if (typeof e[l] != "function") {
                   var E = Error((o || "React class") + ": " + a + " type `" + l + "` is invalid; it must be a function, usually from the `prop-types` package, but received `" + typeof e[l] + "`.This often happens because of typos such as `PropTypes.function` instead of `PropTypes.func`.");
                   throw E.name = "Invariant Violation", E;
                 }
-                v = e[l](r, l, o, a, null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
+                y = e[l](r, l, o, a, null, "SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED");
               } catch (O) {
-                v = O;
+                y = O;
               }
-              v && !(v instanceof Error) && (fr(i), d("%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).", o || "React class", a, l, typeof v), fr(null)), v instanceof Error && !(v.message in Jr) && (Jr[v.message] = !0, fr(i), d("Failed %s type: %s", a, v.message), fr(null));
+              y && !(y instanceof Error) && (fr(i), d("%s: type specification of %s `%s` is invalid; the type checker function must return `null` or an `Error` but returned a %s. You may have forgotten to pass an argument to the type checker creator (arrayOf, instanceOf, objectOf, oneOf, oneOfType, and shape all require an argument).", o || "React class", a, l, typeof y), fr(null)), y instanceof Error && !(y.message in Jr) && (Jr[y.message] = !0, fr(i), d("Failed %s type: %s", a, y.message), fr(null));
             }
         }
       }
@@ -1259,13 +1259,13 @@ Check the top-level render call using <` + a + ">.");
           var l;
           e === null ? l = "null" : Fe(e) ? l = "array" : e !== void 0 && e.$$typeof === X ? (l = "<" + (le(e.type) || "Unknown") + " />", i = " Did you accidentally export a JSX literal instead of a component?") : l = typeof e, d("React.createElement: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", l, i);
         }
-        var v = gr.apply(this, arguments);
-        if (v == null)
-          return v;
+        var y = gr.apply(this, arguments);
+        if (y == null)
+          return y;
         if (o)
           for (var E = 2; E < arguments.length; E++)
             rt(arguments[E], e);
-        return e === re ? jt(v) : tt(v), v;
+        return e === re ? jt(y) : tt(y), y;
       }
       var at = !1;
       function At(e) {
@@ -1330,7 +1330,7 @@ Check the top-level render call using <` + a + ">.");
             M.isBatchingLegacy = a;
           }
           if (o !== null && typeof o == "object" && typeof o.then == "function") {
-            var p = o, l = !1, v = {
+            var p = o, l = !1, y = {
               then: function(D, W) {
                 l = !0, p.then(function(z) {
                   dr(r), Ve === 0 ? Dr(z, D, W) : D(z);
@@ -1342,7 +1342,7 @@ Check the top-level render call using <` + a + ">.");
             return !ut && typeof Promise < "u" && Promise.resolve().then(function() {
             }).then(function() {
               l || (ut = !0, d("You called act(async () => ...) without await. This could lead to unexpected testing behaviour, interleaving multiple act calls and mixing their scopes. You should - await act(async () => ...);"));
-            }), v;
+            }), y;
           } else {
             var E = o;
             if (dr(r), Ve === 0) {
@@ -1410,7 +1410,7 @@ Check the top-level render call using <` + a + ">.");
         toArray: wr,
         only: ar
       };
-      y.Children = Mt, y.Component = _, y.Fragment = re, y.Profiler = Q, y.PureComponent = V, y.StrictMode = te, y.Suspense = U, y.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = Y, y.cloneElement = Lt, y.createContext = or, y.createElement = $t, y.createFactory = Nt, y.createRef = yr, y.forwardRef = Pr, y.isValidElement = ge, y.lazy = Or, y.memo = c, y.startTransition = Dt, y.unstable_act = Ft, y.useCallback = J, y.useContext = R, y.useDebugValue = ie, y.useDeferredValue = gt, y.useEffect = B, y.useId = _t, y.useImperativeHandle = ur, y.useInsertionEffect = x, y.useLayoutEffect = F, y.useMemo = be, y.useReducer = b, y.useRef = m, y.useState = S, y.useSyncExternalStore = bt, y.useTransition = mt, y.version = Ee, typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ < "u" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop == "function" && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
+      v.Children = Mt, v.Component = _, v.Fragment = re, v.Profiler = Q, v.PureComponent = V, v.StrictMode = te, v.Suspense = U, v.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED = Y, v.cloneElement = Lt, v.createContext = or, v.createElement = $t, v.createFactory = Nt, v.createRef = yr, v.forwardRef = Pr, v.isValidElement = ge, v.lazy = Or, v.memo = c, v.startTransition = Dt, v.unstable_act = Ft, v.useCallback = J, v.useContext = R, v.useDebugValue = ie, v.useDeferredValue = gt, v.useEffect = B, v.useId = _t, v.useImperativeHandle = ur, v.useInsertionEffect = x, v.useLayoutEffect = F, v.useMemo = be, v.useReducer = b, v.useRef = m, v.useState = S, v.useSyncExternalStore = bt, v.useTransition = mt, v.version = Ee, typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ < "u" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop == "function" && __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
     }();
   }(vr, vr.exports)), vr.exports;
 }
@@ -1434,7 +1434,7 @@ function zt() {
   if (pt)
     return He;
   pt = 1;
-  var $ = ht(), y = Symbol.for("react.element"), Ee = Symbol.for("react.fragment"), X = Object.prototype.hasOwnProperty, de = $.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner, re = { key: !0, ref: !0, __self: !0, __source: !0 };
+  var $ = ht(), v = Symbol.for("react.element"), Ee = Symbol.for("react.fragment"), X = Object.prototype.hasOwnProperty, de = $.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner, re = { key: !0, ref: !0, __self: !0, __source: !0 };
   function te(Q, L, Z) {
     var N, U = {}, ee = null, G = null;
     Z !== void 0 && (ee = "" + Z), L.key !== void 0 && (ee = "" + L.key), L.ref !== void 0 && (G = L.ref);
@@ -1443,7 +1443,7 @@ function zt() {
     if (Q && Q.defaultProps)
       for (N in L = Q.defaultProps, L)
         U[N] === void 0 && (U[N] = L[N]);
-    return { $$typeof: y, type: Q, key: ee, ref: G, props: U, _owner: de.current };
+    return { $$typeof: v, type: Q, key: ee, ref: G, props: U, _owner: de.current };
   }
   return He.Fragment = Ee, He.jsx = te, He.jsxs = te, He;
 }
@@ -1460,7 +1460,7 @@ var Ge = {};
 var vt;
 function qt() {
   return vt || (vt = 1, process.env.NODE_ENV !== "production" && function() {
-    var $ = ht(), y = Symbol.for("react.element"), Ee = Symbol.for("react.portal"), X = Symbol.for("react.fragment"), de = Symbol.for("react.strict_mode"), re = Symbol.for("react.profiler"), te = Symbol.for("react.provider"), Q = Symbol.for("react.context"), L = Symbol.for("react.forward_ref"), Z = Symbol.for("react.suspense"), N = Symbol.for("react.suspense_list"), U = Symbol.for("react.memo"), ee = Symbol.for("react.lazy"), G = Symbol.for("react.offscreen"), se = Symbol.iterator, Ie = "@@iterator";
+    var $ = ht(), v = Symbol.for("react.element"), Ee = Symbol.for("react.portal"), X = Symbol.for("react.fragment"), de = Symbol.for("react.strict_mode"), re = Symbol.for("react.profiler"), te = Symbol.for("react.provider"), Q = Symbol.for("react.context"), L = Symbol.for("react.forward_ref"), Z = Symbol.for("react.suspense"), N = Symbol.for("react.suspense_list"), U = Symbol.for("react.memo"), ee = Symbol.for("react.lazy"), G = Symbol.for("react.offscreen"), se = Symbol.iterator, Ie = "@@iterator";
     function ne(t) {
       if (t === null || typeof t != "object")
         return null;
@@ -1837,7 +1837,7 @@ function qt() {
     }
     var Er = function(t, u, c, f, R, S, b) {
       var m = {
-        $$typeof: y,
+        $$typeof: v,
         type: t,
         key: u,
         ref: c,
@@ -1890,7 +1890,7 @@ function qt() {
     var Ae;
     Ae = !1;
     function _e(t) {
-      return typeof t == "object" && t !== null && t.$$typeof === y;
+      return typeof t == "object" && t !== null && t.$$typeof === v;
     }
     function xe() {
       {
@@ -2004,7 +2004,7 @@ Check the top-level render call using <` + c + ">.");
           var B = Cr(R);
           B ? m += B : m += xe();
           var x;
-          t === null ? x = "null" : Le(t) ? x = "array" : t !== void 0 && t.$$typeof === y ? (x = "<" + (H(t.type) || "Unknown") + " />", m = " Did you accidentally export a JSX literal instead of a component?") : x = typeof t, I("React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", x, m);
+          t === null ? x = "null" : Le(t) ? x = "array" : t !== void 0 && t.$$typeof === v ? (x = "<" + (H(t.type) || "Unknown") + " />", m = " Did you accidentally export a JSX literal instead of a component?") : x = typeof t, I("React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: %s.%s", x, m);
         }
         var F = Rr(t, u, c, R, S);
         if (F == null)
@@ -2043,14 +2043,16 @@ const Nr = Wr.exports.jsx, yt = Wr.exports.jsxs, Ht = "_wrapper_16cee_1", Gt = "
   logo: Gt,
   title: Kt
 }, Jt = ({
-  text: $
+  text: $,
+  onClick: v
 }) => Nr("header", {
   children: yt("div", {
     className: Mr.wrapper,
     children: [Nr("div", {
       children: Nr("img", {
         className: Mr.logo,
-        src: "https://new.bitovi.com/logos/bitovi-logo-red-1.svg"
+        src: "https://new.bitovi.com/logos/bitovi-logo-red-1.svg",
+        onClick: v
       })
     }), yt("h1", {
       className: Mr.logo,
