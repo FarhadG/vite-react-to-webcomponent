@@ -15,7 +15,7 @@ export const Header = ({ text, onClick }: HeaderProps) => (
           onClick={onClick}
         />
       </div>
-      <h1 className={styles.logo}>{text}, World, again!</h1>
+      <h1 className={styles.logo}>{text}, World!!!!</h1>
     </div>
   </header>
 );
