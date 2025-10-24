@@ -21228,7 +21228,7 @@ const p0 = y0.exports.jsx, oR = y0.exports.jsxs, dD = "_wrapper_16cee_1", pD = "
       })
     }), oR("h1", {
       className: v0.logo,
-      children: [$, ", World!"]
+      children: [$, ", World, again!"]
     })]
   })
 });

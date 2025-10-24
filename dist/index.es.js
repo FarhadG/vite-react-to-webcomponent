@@ -2054,7 +2054,7 @@ const Nr = Wr.exports.jsx, yt = Wr.exports.jsxs, Ht = "_wrapper_16cee_1", Gt = "
       })
     }), yt("h1", {
       className: Mr.logo,
-      children: [$, ", World!"]
+      children: [$, ", World, again!"]
     })]
   })
 });
