@@ -21237,6 +21237,9 @@ const p0 = y0.exports.jsx, oR = y0.exports.jsxs, dk = "_wrapper_16cee_1", pk = "
 customElements.define(
   "rwc-header",
   sk(hk, tk, lk, {
-    props: ["text", "onClick"]
+    props: {
+      text: "string",
+      onClick: "function"
+    }
   })
 );

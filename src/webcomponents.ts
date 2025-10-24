@@ -8,6 +8,9 @@ customElements.define(
   "rwc-header",
   // @ts-ignore
   reactToWebComponent(Header, React, ReactDOMClient, {
-    props: ["text", "onClick"],
+    props: {
+      text: "string",
+      onClick: "function",
+    }
   })
 );
